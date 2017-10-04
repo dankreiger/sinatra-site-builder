@@ -1,0 +1,22 @@
+{
+  "name": "sinatra-site-builder",
+  "version": "0.0.1",
+  "description": "Build static sites with sinatra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dankreiger/sinatra-site-builder.git"
+  },
+  "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com)",
+  "license": "MIT",
+  "bin": {
+    "build": "./setup.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/dankreiger/sinatra-site-builder/issues"
+  },
+  "homepage": "https://github.com/dankreiger/sinatra-site-builder#readme"
+}
