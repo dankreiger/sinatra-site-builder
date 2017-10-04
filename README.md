@@ -1,5 +1,20 @@
 #### NOTE: builder is not ready yet
 
+### Prerequisites
+
+- Mac OSX
+
+- Make sure bundler is installed
+  ```sh
+  $ gem install bundler
+  ```
+
+  *OR*
+
+  ```sh
+  $ sudo gem install bundler
+  ```
+
 ### Install
 
 - Install npm package globally
@@ -10,6 +25,11 @@
 - Run builder
   ```sh
   $ build-site
+  ```
+
+- Open site in browser
+  ```sh
+  $ open http://localhost:4567/
   ```
 
 ### TODO

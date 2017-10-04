@@ -35,7 +35,7 @@ touch Gemfile
 cat > Gemfile << EOF
 source "https://rubygems.org"
 
-ruby "2.2.0"
+ruby "2.0.0"
 
 gem "sinatra"
 EOF
@@ -43,8 +43,10 @@ EOF
 # config.ru
 touch config.ru
 cat > config.ru << EOF
+
 require './index'
 run Sinatra::Application
+
 EOF
 
 # Server
@@ -57,6 +59,7 @@ set :protection, :except => :frame_options
 get '/' do
   File.read(File.join('public', 'index.html'))
 end
+
 EOF
 
 
@@ -78,7 +81,7 @@ cat > public/index.html << EOF
   <h1>hi</h1>
 </body>
 </html>
-
+EOF
 
 
 # commands
