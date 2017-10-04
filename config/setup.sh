@@ -88,5 +88,3 @@ EOF
 # commands
 bundle install
 ruby server.rb
-
-open http://localhost:4567
