@@ -3,8 +3,9 @@
 ### Prerequisites
 
 - Mac OSX
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-- Make sure bundler is installed
+- Bundler
   ```sh
   $ gem install bundler
   ```

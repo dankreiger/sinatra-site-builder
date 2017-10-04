@@ -5,6 +5,7 @@ echo ""
 
 YELLOW='\033[1;33m';
 NC='\033[0m'; # No Color
+RUBY_VERSION=$(ruby -v | sed 's/[^0-9.]*\([0-9.]*\).*/\1/')
 
 printf "${YELLOW}Please enter your site directory name:${NC} "
 read dirname
@@ -35,7 +36,7 @@ touch Gemfile
 cat > Gemfile << EOF
 source "https://rubygems.org"
 
-ruby "2.0.0"
+ruby "${RUBY_VERSION}"
 
 gem "sinatra"
 EOF
