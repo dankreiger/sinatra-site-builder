@@ -28,7 +28,7 @@ EOF
 # PROCFILE
 touch Procfile
 cat > Procfile << EOF
-web: ruby server.rb -p $PORT
+web: ruby server.rb -p '$PORT'
 EOF
 
 # Gemfile
