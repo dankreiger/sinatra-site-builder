@@ -78,7 +78,6 @@ cat > public/index.html << EOF
   <h1>hi</h1>
 </body>
 </html>
-}
 
 
 
