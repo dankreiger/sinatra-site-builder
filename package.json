@@ -13,10 +13,11 @@
   "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com)",
   "license": "MIT",
   "bin": {
-    "build": "./setup.sh"
+    "build-site": "./config/setup.sh"
   },
   "bugs": {
     "url": "https://github.com/dankreiger/sinatra-site-builder/issues"
   },
-  "homepage": "https://github.com/dankreiger/sinatra-site-builder#readme"
+  "homepage": "https://github.com/dankreiger/sinatra-site-builder#readme",
+  "dependencies": {}
 }
