@@ -1,8 +1,18 @@
+#### NOTE: builder is not ready yet
+
 ### Install
 
-npm install -g sinatra-site-builder
+- Install npm package globally
+  ```sh
+  $ npm install -g sinatra-site-builder
+  ```
 
-### TODO (builder not ready yet)
+- Run builder
+  ```sh
+  $ build-site
+  ```
+
+### TODO
 
 - Add commands for custom ruby versions
 - Add commands for site routes

@@ -26,7 +26,7 @@ EOF
 
 # PROCFILE
 touch Procfile
-cat > public/index.html << EOF
+cat > Procfile << EOF
 web: ruby server.rb -p $PORT
 EOF
 
