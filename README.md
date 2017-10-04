@@ -25,6 +25,12 @@
 
 - Run builder
   ```sh
+  $ sinatra-site-builder
+  ```
+
+  **OR**
+
+  ```sh
   $ build-site
   ```
 
