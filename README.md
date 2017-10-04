@@ -4,6 +4,10 @@
 
 - Mac OSX
 - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- Sinatra
+  ```sh
+  $ gem install sinatra
+  ```
 
 - Bundler
   ```sh
