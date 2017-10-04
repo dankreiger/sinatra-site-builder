@@ -1,6 +1,11 @@
 #!/bin/sh
 
+echo ""
+echo ""
+
 YELLOW='\033[1;33m';
+NC='\033[0m'; # No Color
+
 printf "${YELLOW}Please enter your site directory name:${NC} "
 read dirname
 
