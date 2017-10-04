@@ -1,6 +1,6 @@
 {
   "name": "sinatra-site-builder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Build static sites with sinatra",
   "main": "index.js",
   "scripts": {
