@@ -35,5 +35,4 @@
 
 ### TODO
 
-- Add commands for custom ruby versions
 - Add commands for site routes
